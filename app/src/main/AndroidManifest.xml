@@ -14,7 +14,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity android:name=".module.home.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,16 +22,16 @@
             </intent-filter>
         </activity>
 
-        <!--测试-->
+        <!-- 测试 -->
         <activity
             android:name=".module.testlist.TestListActivity"
             android:screenOrientation="portrait" />
 
-        <!--崩溃日志页面-->
+        <!-- 崩溃日志页面 -->
         <activity
             android:name=".pub.crash.CrashInfoActivity"
             android:screenOrientation="portrait" />
-
+        <activity android:name=".module.testlist.TestActivity"></activity>
     </application>
 
 </manifest>
