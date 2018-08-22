@@ -1,7 +1,9 @@
-# MVP demo
+# KeyBoard demo
 * 是否引入ButterKnife
 * ButterKnife在library和组件化的时候很不方便，这里先不适用ButterKnkife，使用findViewById,后期考虑databinding
 * 插件Android Layout ID convert可以方便的生成findViewById
+
+#带完善，有时间再完善
 
 ## 集成以下功能
 * 封装MVP
